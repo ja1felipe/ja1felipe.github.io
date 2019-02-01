@@ -1,0 +1,79 @@
+@media (min-width: 768px) {
+
+    .menufont a:after{
+        content: "|";
+        float: right;
+        color: white;
+        margin-left: 25px;
+        opacity: 0.5;
+    }
+}
+
+body{
+    background: url("../img/bg.png");
+}
+
+.menufont a{
+    color: #a1a1a1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menufont a:hover{
+    color: white;
+}
+
+.menufont2 a{
+    color: #a1a1a1;
+}
+
+.menufont2 a:hover{
+    color: white;
+}
+
+.logoCentral{
+    opacity: 0.7;
+    margin: 75px 0 75px 0;
+}
+
+.logoCentral:hover{
+    opacity: 1;
+}
+
+.textCentral{
+    font-family: "Open Sans", sans-serif;
+    text-indent: 3em;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.social:hover{
+    border-color: #007bff;
+    background: none;
+    color: white;
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+.github:hover{
+    border-color: white;
+}
+
+.fb:hover{
+    border-color: #005cbf;
+}
+
+.avatar{
+    opacity: 0.8;
+}
+
+.avatar:hover{
+    opacity: 1;
+    transition-duration: 1.5s;
+    transform: rotate(360deg);
+}
+
