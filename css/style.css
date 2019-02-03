@@ -77,3 +77,40 @@ body{
     transform: rotate(360deg);
 }
 
+.activeLink a{
+    cursor: default;
+    color: white;
+    pointer-events: none;
+    opacity: 1;
+}
+
+#portfolio{
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo{
+    opacity: 0.8;
+    display: inline-block;
+    cursor: default;
+}
+
+.titulo:hover{
+    opacity: 1;
+}
+
+.titulo i{
+    color: #0a8fff;
+    font-size: 30px;
+}
+
+.textCustom{
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.iconeCarousel{
+    text-shadow: 1px 2px 0px black;
+    color: white;
+    font-size: 35px;
+}
